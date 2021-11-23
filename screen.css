@@ -4,11 +4,16 @@
 /*I will use min-width media queries to make my website look as good on bigger screens.
 As is, the styles for this website are intended for a small viewport (200px-600px)*/
 
+/*My colors:
+YELLOW: #efdc70
+PURPLE: #87496e;
+LIGHTER PURPLE:#bd7ead */
+
 html {
   font-size: 16px;
   line-height: 24px;
   color: white;
-  background-color: purple;
+  background-color: #87496e; /*purple*/
   font-family: "Bodoni", serif;
   padding: 24px;
 }
@@ -16,11 +21,11 @@ html {
 h1 {
   font-size: 32px;
   line-height: 32px;
-  color: purple;
+  color: #87496e; /*purple*/
   padding-top: 48px;
   text-align: center;
   text-transform: uppercase;
-  background-color: yellow;
+  background-color: #efdc70;
   padding-bottom: 48px;
 }
 
@@ -29,7 +34,7 @@ img {
 }
 
 a {
-  color: yellow;
+  color: #efdc70;
   font-size: 14px;
   font-family: "Glacial Indifference", "Franklin Gothic", sans-serif;
 }
@@ -37,8 +42,8 @@ a {
 footer {
   margin-top: 100px;
   padding-top: 24px;
-  background-color: yellow;
-  color: purple;
+  background-color: #efdc70;
+  color: #87496e; /*purple*/
   padding: -30px;
   margin-bottom: -100px;
   margin-left: -30px;
@@ -59,7 +64,7 @@ main {
 }
 
 .danger {
-  color: yellow;
+  color: #efdc70;
   font-weight: bolder;
   font-family: "Warncock Pro", "Red Rose", serif;
 }
@@ -73,7 +78,7 @@ footer h4 {
 }
 
 footer nav a {
-  color: purple;
+  color: #efdc70;
 }
 
 footer p {
