@@ -6,22 +6,22 @@ As is, the styles for this website are intended for a small viewport (200px-600p
 
 /*My colors:
 YELLOW: #efdc70
-PURPLE: #87496e;
+PURPLE: #76305c;;
 LIGHTER PURPLE:#bd7ead */
 
 html {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 28px;
   color: white;
-  background-color: #87496e; /*purple*/
+  background-color: #76305c;
   font-family: "Bodoni", serif;
   padding: 24px;
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 32px;
-  color: #87496e; /*purple*/
+  color: #76305c;
   padding-top: 48px;
   text-align: center;
   text-transform: uppercase;
@@ -35,8 +35,21 @@ img {
 
 a {
   color: #efdc70;
-  font-size: 14px;
+  font-size: 18px;
+  line-height:
   font-family: "Glacial Indifference", "Franklin Gothic", sans-serif;
+}
+
+nav li {
+  list-style: decimal;
+}
+
+main {
+  padding-top: 120px;
+}
+
+h2 {
+  font-size: 28px;
 }
 
 footer {
@@ -50,12 +63,22 @@ footer {
   margin-right: -30px;
 }
 
-nav li {
-  list-style: decimal;
+footer nav li {
+  list-style: none;
 }
 
-main {
-  padding-top: 120px;
+footer h4 {
+  padding-left: 40px;
+}
+
+footer nav a {
+  color: #76305c;
+}
+
+footer p {
+  padding-top: 48px;
+  text-align: center;
+  font-size: 10px;
 }
 
 .step {
@@ -69,23 +92,6 @@ main {
   font-family: "Warncock Pro", "Red Rose", serif;
 }
 
-footer nav li {
-  list-style: none;
-}
-
-footer h4 {
-  padding-left: 40px;
-}
-
-footer nav a {
-  color: #efdc70;
-}
-
-footer p {
-  padding-top: 48px;
-  text-align: center;
-  font-size: 10px;
-}
 
 #logo {
   width: 30%;
@@ -111,6 +117,19 @@ footer p {
 .read-more {
   display: none;
 }
+
 figcaption a.wasclicked {
   /*display .read-more*/ /*will implement in JavaScript*/
+}
+
+@media screen and (min-width: 730px) {
+
+  html {
+    padding: 82px;
+  }
+
+  footer {
+    margin-left: -82px;
+    margin-right: -82px;
+  }
 }
