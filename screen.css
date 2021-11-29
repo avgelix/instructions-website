@@ -5,15 +5,15 @@
 As is, the styles for this website are intended for a small viewport (200px-600px)*/
 
 /*My colors:
-YELLOW: #efdc70
-PURPLE: #76305c;;
+YELLOW: #efdc70;
+PURPLE: #76305c;
 LIGHTER PURPLE:#bd7ead */
 
 html {
   font-size: 20px;
   line-height: 28px;
   color: white;
-  background-color: #76305c;
+  background-color: #76305c; /*purple*/
   font-family: "Bodoni", serif;
   padding: 24px;
 }
@@ -21,11 +21,11 @@ html {
 h1 {
   font-size: 28px;
   line-height: 32px;
-  color: #76305c;
+  color: #76305c; /*purple*/
   padding-top: 48px;
   text-align: center;
   text-transform: uppercase;
-  background-color: #efdc70;
+  background-color: #EFA93F; /*yellow*/
   padding-bottom: 48px;
 }
 
@@ -34,7 +34,7 @@ img {
 }
 
 a {
-  color: #efdc70;
+  color: #EFA93F; /*yellow*/
   font-size: 18px;
   line-height:
   font-family: "Glacial Indifference", "Franklin Gothic", sans-serif;
@@ -54,9 +54,9 @@ h2 {
 
 footer {
   margin-top: 100px;
-  padding-top: 24px;
-  background-color: #efdc70;
-  color: #87496e; /*purple*/
+  padding-top: 5px;
+  background-color: #EFA93F; /*yellow*/
+  color: #76305c; /*purple*/
   padding: -30px;
   margin-bottom: -100px;
   margin-left: -30px;
