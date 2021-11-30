@@ -128,9 +128,17 @@ footer p {
   font-family: "Warncock Pro", "Red Rose", serif;
 }
 
+#back-top {
+  width: 10%;
+  left: 100%;
+  right: 0;
+  top: 85%;
+  position: sticky;
+}
+
 #logo {
   width: 30%;
-  margin-left: 30%;
+  margin-left: 35%;
 }
 
 #product-info{
