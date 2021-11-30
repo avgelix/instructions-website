@@ -77,3 +77,57 @@ function myFunctionEight() {
     x.style.display = "none";
   }
 };
+
+function myFunctionNine() {
+  var x = document.getElementById("read-more-text-nine");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+};
+
+function myFunctionTen() {
+  var x = document.getElementById("read-more-text-ten");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+};
+
+function myFunctionEleven() {
+  var x = document.getElementById("read-more-text-eleven");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+};
+
+function myFunctionTwelve() {
+  var x = document.getElementById("read-more-text-twelve");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+};
+
+function myFunctionCord() {
+  var x = document.getElementById("read-more-text-cord");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+};
+
+function myFunctionRadio() {
+  var x = document.getElementById("read-more-text-radio");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+};
