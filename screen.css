@@ -30,26 +30,49 @@ h1 {
 }
 
 img {
-  width: 30%;
+  width: 40%;
 }
 
 a {
   color: #EFA93F; /*yellow*/
   font-size: 18px;
-  line-height:
   font-family: "Glacial Indifference", "Franklin Gothic", sans-serif;
 }
 
-nav li {
+nav ul {
+  list-style: circle;
+}
+
+li > ul {
   list-style: decimal;
 }
 
+nav > ul >li {
+  padding-top: 16px;
+}
+nav > ul > li > a {
+  font-style: normal;
+  color: white;
+}
+
 main {
-  padding-top: 120px;
+  padding-top: 32px;
 }
 
 h2 {
   font-size: 28px;
+}
+
+section > h2 {
+  font-size: 22px;
+  font-variant: small-caps;
+  color: #76305c; /*purple*/
+  background-color: #EFA93F; /*yellow*/
+  padding: 28px;
+}
+
+article {
+  padding-top: 100px;
 }
 
 footer {
@@ -74,13 +97,17 @@ footer h4 {
   margin-bottom: 0;
 }
 
-footer nav a {
+footer > nav > ul > li > a {
   color: #76305c; /*purple*/
   font-size: 14px;
 }
 
 footer ul {
   margin-top: 5px;
+}
+
+footer ul li {
+    line-height: 10px;
 }
 
 footer p {
@@ -113,7 +140,7 @@ footer p {
 #humidifier-pic {
   padding-top: 24px;
   width: 45%;
-  margin-left: 55%;
+  margin-left: 30%;
 }
 
 #product-info {
@@ -144,4 +171,16 @@ footer p {
   #product-info{
     display: block;
   }
+
+  #humidifier-pic {
+    padding-top: 24px;
+    width: 45%;
+    margin-left: 55%;
+  }
+
+  #back-top {
+    width: 5%;
+  }
+
+
 }
